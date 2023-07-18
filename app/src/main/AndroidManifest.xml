@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.deoraj.healthcareapp">
+
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+        <activity android:name="com.deoraj.healthcareapp.MyCalendarDoctorActivity"></activity>
+        <activity android:name="com.deoraj.healthcareapp.TestActivity" />
+        <activity android:name="com.deoraj.healthcareapp.AppointementActivity" />
+        <activity android:name="com.deoraj.healthcareapp.FicheInfo" />
+        <activity android:name="com.deoraj.healthcareapp.PatientInfoActivity" />
+        <activity android:name="com.deoraj.healthcareapp.DossierMedical" />
+        <activity android:name="com.deoraj.healthcareapp.ChatActivity" />
+        <activity android:name="com.deoraj.healthcareapp.PatientRequestPage" />
+        <activity android:name="com.deoraj.healthcareapp.DoctorHomeActivity" />
+        <activity android:name="com.deoraj.healthcareapp.EditProfileDoctorActivity" />
+        <activity android:name="com.deoraj.healthcareapp.ConfirmedAppointmensActivity" />
+        <activity android:name="com.deoraj.healthcareapp.PatientAppointementsActivity" />
+        <activity android:name="com.deoraj.healthcareapp.ProfilePatientActivity" />
+        <activity android:name="com.deoraj.healthcareapp.MyDoctorsAvtivity" />
+        <activity android:name="com.deoraj.healthcareapp.ProfileDoctorActivity" />
+        <activity android:name="com.deoraj.healthcareapp.EditProfilePatientActivity" />
+        <activity android:name="com.deoraj.healthcareapp.DoctorAppointementActivity" />
+        <activity android:name="com.deoraj.healthcareapp.FicheActivity" />
+        <activity android:name="com.deoraj.healthcareapp.MyPatientsActivity" />
+        <activity android:name="com.deoraj.healthcareapp.SearchPatActivity" />
+        <activity android:name="com.deoraj.healthcareapp.FirstSigninActivity" />
+        <activity android:name="com.deoraj.healthcareapp.HomeActivity" />
+        <activity android:name="com.deoraj.healthcareapp.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>
